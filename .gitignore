@@ -1,0 +1,4 @@
+syntax: glob
+arch/*
+*.sch-bak
+*.kicad_pcb-bak
