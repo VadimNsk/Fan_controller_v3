@@ -669,47 +669,11 @@ Wire Wire Line
 Wire Wire Line
 	5075 2225 5425 2225
 Wire Wire Line
-	950  2725 1550 2725
-Wire Wire Line
-	1550 2725 1550 2700
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J?
-U 1 1 616E418D
-P 1200 2450
-AR Path="/611899F2/616E418D" Ref="J?"  Part="1" 
-AR Path="/616E418D" Ref="J2"  Part="1" 
-AR Path="/61554169/616E418D" Ref="J?"  Part="1" 
-AR Path="/616C9C69/61554169/616E418D" Ref="J?"  Part="1" 
-AR Path="/619FB8A8/616E418D" Ref="J?"  Part="1" 
-F 0 "J2" H 1250 2750 50  0000 C CNN
-F 1 "Dig_mod_iface" H 1250 2125 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Horizontal" H 1200 2450 50  0001 C CNN
-F 3 "~" H 1200 2450 50  0001 C CNN
-	1    1200 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1750 2300 1825 2300
-Text Label 800  2550 0    50   ~ 0
-scl0
-Text Label 800  2450 0    50   ~ 0
-sda0
-Wire Wire Line
-	800  2550 1000 2550
-Wire Wire Line
-	800  2450 1000 2450
 Text Label 1525 2550 0    50   ~ 0
 scl0
 Text Label 1525 2450 0    50   ~ 0
 sda0
-Wire Wire Line
-	1550 2650 1500 2650
-Wire Wire Line
-	950  2650 950  2725
-Wire Wire Line
-	1000 2650 950  2650
-Wire Wire Line
-	1000 2350 850  2350
 Wire Wire Line
 	1750 2450 1750 2300
 Wire Wire Line
@@ -717,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	1975 2550 1825 2550
 Wire Wire Line
-	1825 2550 1500 2550
+	1825 2550 950  2550
 Wire Wire Line
 	2475 2875 2175 2875
 $Comp
@@ -1452,28 +1416,6 @@ Wire Wire Line
 	4725 2475 4350 2475
 Text Label 4725 2475 2    50   ~ 0
 I2C_SCL
-$Comp
-L power:GND1 #PWR?
-U 1 1 61CB7628
-P 1575 2700
-AR Path="/6118243C/61CB7628" Ref="#PWR?"  Part="1" 
-AR Path="/61CB7628" Ref="#PWR08"  Part="1" 
-AR Path="/61553E5D/61CB7628" Ref="#PWR?"  Part="1" 
-AR Path="/61554169/61CB7628" Ref="#PWR?"  Part="1" 
-AR Path="/616C9C69/61554169/61CB7628" Ref="#PWR?"  Part="1" 
-AR Path="/619FB8A8/61CB7628" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 1575 2450 50  0001 C CNN
-F 1 "GND1" V 1475 2625 50  0000 C CNN
-F 2 "" H 1575 2700 50  0001 C CNN
-F 3 "" H 1575 2700 50  0001 C CNN
-	1    1575 2700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1575 2700 1550 2700
-Connection ~ 1550 2700
-Wire Wire Line
-	1550 2700 1550 2650
 Wire Wire Line
 	3000 2175 3050 2175
 Wire Wire Line
@@ -2041,4 +1983,26 @@ Wire Wire Line
 	3400 5125 3700 5125
 Wire Wire Line
 	4250 4925 4250 4875
+Wire Wire Line
+	950  2550 950  2450
+Wire Wire Line
+	950  2450 1000 2450
+Wire Wire Line
+	1000 2350 850  2350
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 616E418D
+P 1300 2350
+AR Path="/611899F2/616E418D" Ref="J?"  Part="1" 
+AR Path="/616E418D" Ref="J2"  Part="1" 
+AR Path="/61554169/616E418D" Ref="J?"  Part="1" 
+AR Path="/616C9C69/61554169/616E418D" Ref="J?"  Part="1" 
+AR Path="/619FB8A8/616E418D" Ref="J?"  Part="1" 
+F 0 "J2" H 1350 2550 50  0000 C CNN
+F 1 "Dig_mod_iface" H 1350 2100 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Horizontal" H 1300 2350 50  0001 C CNN
+F 3 "~" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
