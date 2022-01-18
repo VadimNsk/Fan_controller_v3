@@ -1,4 +1,4 @@
-19428488751756306
+19433472674544698
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56875,6 +56875,13 @@ Through hole pin header THT 1x05 2.54mm single row
 5
 5
 Modules
+PinHeader_1x07_P1.27mm_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x07, 1.27mm pitch, single row
+Through hole pin header THT 1x07 1.27mm single row
+0
+4
+4
+Modules
 PinHeader_1x07_P2.54mm_Vertical_for_DG301R-5.0-02P
 Through hole straight pin header, 1x07, 2.54mm pitch, single row
 Through hole pin header THT 1x07 2.54mm single row
@@ -56923,6 +56930,13 @@ Surface mounted pin header SMD 2x05 1.27mm double row
 0
 10
 10
+Modules
+PinSocket_1x07_P1.27mm_1x04_P2.54mm_Vertical
+Through hole straight socket strip, 1x07, 1.27mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x07 1.27mm single row
+0
+4
+4
 Modules
 Power_analyzer
 
@@ -57000,6 +57014,13 @@ Integrated Circuit
 0
 8
 8
+Modules
+SSD1306_2_I2C
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+5
 Modules
 SSD1306_I2C
 Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
