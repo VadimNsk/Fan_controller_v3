@@ -1,4 +1,4 @@
-19433472674544698
+19443327035696949
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56798,6 +56798,13 @@ Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electroni
 3
 2
 Modules
+MountingHole_2.29x3.81mm
+Mounting Hole 4mm, no annular
+mounting hole 4mm no annular
+0
+0
+0
+Modules
 PinHeader_1x01_P2.54mm
 Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
@@ -56847,6 +56854,13 @@ Through hole angled pin header THT 1x03 2.54mm single row
 3
 3
 Modules
+PinHeader_1x03_P2.54mm_Horizontal_short
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
+0
+3
+3
+Modules
 PinHeader_1x03_P2.54mm_Vertical_for_DG301-5.0-02P
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -56862,6 +56876,13 @@ Through hole pin header THT 1x03 2.54mm single row
 3
 Modules
 PinHeader_1x04_P2.54mm_Horizontal
+Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x04 2.54mm single row
+0
+4
+4
+Modules
+PinHeader_1x04_P2.54mm_Horizontal_short
 Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x04 2.54mm single row
 0
@@ -56917,6 +56938,13 @@ Surface mounted pin header SMD 2x02 1.27mm double row
 4
 4
 Modules
+PinHeader_2x03_P1.27mm_Horizontal_short
+Through hole angled pin header, 2x03, 1.27mm pitch, 4.0mm pin length, double rows
+Through hole angled pin header THT 2x03 1.27mm double row
+0
+6
+6
+Modules
 PinHeader_2x03_P1.27mm_Vertical_SMD
 surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
 Surface mounted pin header SMD 2x03 1.27mm double row
@@ -56937,6 +56965,13 @@ Through hole socket strip THT 1x07 1.27mm single row
 0
 4
 4
+Modules
+PinSocket_2x03_P1.27mm_Horizontal_short
+Through hole angled socket strip, 2x03, 1.27mm pitch, 4.4mm socket length, double cols (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD091.pdf&t=1511594177220), script generated
+Through hole angled socket strip THT 2x03 1.27mm double row
+0
+6
+6
 Modules
 Power_analyzer
 
@@ -57016,6 +57051,13 @@ Integrated Circuit
 8
 Modules
 SSD1306_2_I2C
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+5
+Modules
+SSD1306_2_I2C_wo3D
 Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
 Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
 0
