@@ -2005,4 +2005,92 @@ F 3 "~" H 1300 2350 50  0001 C CNN
 	1    1300 2350
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61EE5E54
+P 4250 825
+F 0 "H1" H 4350 871 50  0000 L CNN
+F 1 "MountingHole_D2.0mm" H 4350 780 50  0000 L CNN
+F 2 "Modules:MountingHole_D2.0mm" H 4250 825 50  0001 C CNN
+F 3 "~" H 4250 825 50  0001 C CNN
+	1    4250 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61EF235E
+P 4250 1025
+F 0 "H2" H 4350 1071 50  0000 L CNN
+F 1 "MountingHole_D2.0mm" H 4350 980 50  0000 L CNN
+F 2 "Modules:MountingHole_D2.0mm" H 4250 1025 50  0001 C CNN
+F 3 "~" H 4250 1025 50  0001 C CNN
+	1    4250 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61EF275B
+P 4250 1225
+F 0 "H3" H 4350 1271 50  0000 L CNN
+F 1 "MountingHole_D2.0mm" H 4350 1180 50  0000 L CNN
+F 2 "Modules:MountingHole_D2.0mm" H 4250 1225 50  0001 C CNN
+F 3 "~" H 4250 1225 50  0001 C CNN
+	1    4250 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 61EF2AAD
+P 7000 1225
+F 0 "H8" H 7100 1271 50  0000 L CNN
+F 1 "MountingHole_2.29x5.46mm" H 7100 1180 50  0000 L CNN
+F 2 "Modules:MountingHole_2.29x5.46mm" H 7000 1225 50  0001 C CNN
+F 3 "~" H 7000 1225 50  0001 C CNN
+	1    7000 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61EF389C
+P 5500 825
+F 0 "H4" H 5600 871 50  0000 L CNN
+F 1 "MountingHole_2.29x3.81mm" H 5600 780 50  0000 L CNN
+F 2 "Modules:MountingHole_2.29x3.81mm" H 5500 825 50  0001 C CNN
+F 3 "~" H 5500 825 50  0001 C CNN
+	1    5500 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61EF3C50
+P 5500 1025
+F 0 "H5" H 5600 1071 50  0000 L CNN
+F 1 "MountingHole_2.29x3.81mm" H 5600 980 50  0000 L CNN
+F 2 "Modules:MountingHole_2.29x3.81mm" H 5500 1025 50  0001 C CNN
+F 3 "~" H 5500 1025 50  0001 C CNN
+	1    5500 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61F0529C
+P 5500 1225
+F 0 "H6" H 5600 1271 50  0000 L CNN
+F 1 "MountingHole_2.29x3.81mm" H 5600 1180 50  0000 L CNN
+F 2 "Modules:MountingHole_2.29x3.81mm" H 5500 1225 50  0001 C CNN
+F 3 "~" H 5500 1225 50  0001 C CNN
+	1    5500 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 61F12FF9
+P 7000 825
+F 0 "H7" H 7100 871 50  0000 L CNN
+F 1 "MountingHole_2.29x3.81mm" H 7100 780 50  0000 L CNN
+F 2 "Modules:MountingHole_2.29x3.81mm" H 7000 825 50  0001 C CNN
+F 3 "~" H 7000 825 50  0001 C CNN
+	1    7000 825 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

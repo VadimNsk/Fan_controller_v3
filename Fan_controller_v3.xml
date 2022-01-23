@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\My_Documents\projects\smart_House\PCB\Climate_controller\Fan_controller_v3\Fan_controller_v3.sch</source>
-    <date>20.01.2022 13:03:23</date>
+    <date>23.01.2022 11:00:45</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -433,6 +433,70 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616E418D</tstamp>
     </comp>
+    <comp ref="H1">
+      <value>MountingHole_D2.0mm</value>
+      <footprint>Modules:MountingHole_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EE5E54</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_D2.0mm</value>
+      <footprint>Modules:MountingHole_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EF235E</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_D2.0mm</value>
+      <footprint>Modules:MountingHole_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EF275B</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_2.29x5.46mm</value>
+      <footprint>Modules:MountingHole_2.29x5.46mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EF2AAD</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_2.29x3.81mm</value>
+      <footprint>Modules:MountingHole_2.29x3.81mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EF389C</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_2.29x3.81mm</value>
+      <footprint>Modules:MountingHole_2.29x3.81mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EF3C50</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_2.29x3.81mm</value>
+      <footprint>Modules:MountingHole_2.29x3.81mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F0529C</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_2.29x3.81mm</value>
+      <footprint>Modules:MountingHole_2.29x3.81mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F12FF9</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="TestPoint_Small">
@@ -599,6 +663,17 @@
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="B" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
     </libpart>
     <libpart lib="Modules" part="ADuM1251ARZ">
       <description>Two Channel Digital Isolator, 1Mbps, SOIC-8</description>
@@ -768,6 +843,9 @@
     </library>
     <library logical="Jumper">
       <uri>C:\Program_Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program_Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="Modules">
       <uri>D:/My_Documents/projects/smart_House/PCB/KiCAD_libraries/Modules.lib</uri>
